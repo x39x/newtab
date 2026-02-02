@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>&nbsp;</title>
+        <style>
+            html,
+            body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            /* 默认纯色背景 */
+            body {
+                background-color: #ffffff;
+                background-image: none;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            /* 暗色模式 */
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: #1e1e1e;
+                }
+            }
+        </style>
+
+        <link
+            class="icon"
+            rel="icon"
+            type="image/png"
+            href="../icons/icon_light128.png"
+        />
+    </head>
+
+    <body>
+        <script src="new_tab.js"></script>
+    </body>
+</html>

@@ -15,9 +15,9 @@
         "128": "icons/icon_light128.png"
     },
     "chrome_url_overrides": {
-        "newtab": "html/new_tab.html"
+        "newtab": "new_tab.html"
     },
     "action": {
-        "default_popup": "html/popup.html"
+        "default_popup": "popup.html"
     }
 }
