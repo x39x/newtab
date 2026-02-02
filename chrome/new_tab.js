@@ -11,8 +11,8 @@ const set_icon = () => {
     if (!icon) return;
 
     icon.href = themeMedia.matches
-        ? "../icons/icon_light128.png"
-        : "../icons/icon_dark128.png";
+        ? "icons/favicon_light.svg"
+        : "icons/favicon_dark.svg";
 };
 
 let bgObjectUrl = null;
