@@ -7,16 +7,18 @@ body {
     overflow: hidden;
 }
 
+/* 默认纯色背景 */
 body {
-    background-color: white;
-    background-image: url("../bg/bg.png");
+    background-color: #ffffff;
+    background-image: none;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+/* 暗色模式 */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #3c3c3c;
+        background-color: #1e1e1e;
     }
 }

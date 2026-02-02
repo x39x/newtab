@@ -4,6 +4,7 @@
     "name": "39 New Tab",
     "description": "39 New Tab",
     "offline_enabled": true,
+    "permissions": ["storage"],
     "icons": {
         "16": "icons/icon_light16.png",
         "24": "icons/icon_light24.png",
@@ -15,5 +16,8 @@
     },
     "chrome_url_overrides": {
         "newtab": "html/new_tab.html"
+    },
+    "action": {
+        "default_popup": "html/popup.html"
     }
 }
