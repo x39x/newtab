@@ -1,6 +1,7 @@
-A browser extension that enables you to replace the default new tab page with a blank page while retaining the default favicon. Supports dark mode.
+
+Chrome 浏览器插件，移除 New Tab 页面所有元素，包括书签栏，仅保留纯色背景，支持添加背景图片
+
 
 ## Links
 
-[Chrome Web Store](https://chromewebstore.google.com/detail/odjfoclbnmllekbhpbgopiiaelcpeimb)<br>
-[Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/cbdaoffmmppingmciephekphbcfngkkk)
+https://github.com/loftyshaky/empty-new-tab-page
